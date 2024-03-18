@@ -19,18 +19,22 @@ class MainActivity : AppCompatActivity() {
         recyclerView.setHasFixedSize(true)
         recyclerView.layoutManager = LinearLayoutManager(this)
 
-//        dinoList = dinoList(dinoList)
-//        recyclerView.adapter = dinoAdapter
-//        dinoList.add(Dino(R.drawable.theropoda, "Theropoda"))
-//        dinoList.add(Dino(R.drawable.ankylosauria, "Ankylosauria"))
-//        dinoList.add(Dino(R.drawable.ceratopsia, "Ceratopsia"))
-//        dinoList.add(Dino(R.drawable.hadrosauridae, "Hadrosauridae"))
-//        dinoList.add(Dino(R.drawable.pterosauria, "Pterosauria"))
-//        dinoList.add(Dino(R.drawable.saurischia, "Saurischia"))
-//        dinoList.add(Dino(R.drawable.sauropoda, "Sauropoda"))
-//        dinoList.add(Dino(R.drawable.triceratops, "Triceratops"))
-//
-//        dinoAdapter = DinoAdapter(dinoList)
-//        recyclerView.adapter = dinoAdapter
+        // Inisialisasi dinoList
+        dinoList = ArrayList()
+
+        // Mengisi dinoList dengan data Dino
+        dinoList.add(Dino(R.drawable.theropoda, "Theropoda"))
+        dinoList.add(Dino(R.drawable.ankylosauria, "Ankylosauria"))
+        dinoList.add(Dino(R.drawable.ceratopsia, "Ceratopsia"))
+        dinoList.add(Dino(R.drawable.hadrosauridae, "Hadrosauridae"))
+        dinoList.add(Dino(R.drawable.pterosauria, "Pterosauria"))
+        dinoList.add(Dino(R.drawable.saurischia, "Saurischia"))
+        dinoList.add(Dino(R.drawable.sauropoda, "Sauropoda"))
+        dinoList.add(Dino(R.drawable.triceratops, "Triceratops"))
+
+        // Inisialisasi DinoAdapter setelah dinoList diisi
+        dinoAdapter = DinoAdapter(dinoList)
+        recyclerView.adapter = dinoAdapter
     }
+
 }
