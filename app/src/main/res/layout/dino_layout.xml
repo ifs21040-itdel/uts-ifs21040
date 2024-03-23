@@ -8,6 +8,7 @@
     android:foreground="?attr/selectableItemBackground">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/carddino"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
@@ -21,7 +22,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:padding="16dp">
 
             <androidx.cardview.widget.CardView
@@ -39,21 +40,21 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginEnd="16dp"
                     android:layout_marginRight="16dp"
-                    android:src="@drawable/theropoda" />
+                    android:src="@drawable/tyrannousaurus_rex" />
             </androidx.cardview.widget.CardView>
 
             <TextView
                 android:id="@+id/textView4"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="164dp"
                 android:layout_marginTop="44dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Theropoda"
+                android:text="Tyrannosaurus Rex"
                 android:textColor="#12372A"
-                android:textSize="20sp" />
+                android:textSize="18sp" />
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>

@@ -13,7 +13,7 @@ class WelcomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_welcome)
         val btnStart = findViewById<Button>(R.id.buttongo)
         btnStart.setOnClickListener {
-            val intent = Intent(this@WelcomeActivity, HomeActivity::class.java)
+            val intent = Intent(this@WelcomeActivity, MainActivity::class.java)
             intent.addFlags(
                 Intent.FLAG_ACTIVITY_CLEAR_TOP or
                     Intent.FLAG_ACTIVITY_NEW_TASK)

@@ -1,43 +1,54 @@
 package com.ifs21040.dinopedia
 
-import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.TextView
+import androidx.recyclerview.widget.RecyclerView
+import com.ifs21040.dinopedia.databinding.dinolayoutBinding
 
 
-class DinoAdapter(private val dinoList: ArrayList<Dino>) :
+
+class DinoAdapter(private val listDino: ArrayList<Dino>) :
     RecyclerView.Adapter<DinoAdapter.DinoViewHolder>() {
 
-    private lateinit var onItemClickListener: OnItemClickCallback
+    private lateinit var onItemClickCallback: OnItemClickCallback
 
     fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {
-        this.onItemClickListener = onItemClickCallback
+        this.onItemClickCallback = onItemClickCallback
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DinoViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.card_layout, parent, false)
-        return DinoViewHolder(view)
+    override fun onCreateViewHolder(
+        parent: ViewGroup,
+        viewType: Int
+    ): DinoViewHolder {
+        val binding = dinolayoutBinding.inflate(
+            LayoutInflater.from(parent.context),
+            parent,
+            false
+        )
+        return DinoViewHolder(binding)
     }
 
     override fun onBindViewHolder(holder: DinoViewHolder, position: Int) {
-        val dino = dinoList[position]
-        holder.imageView.setImageResource(dino.image)
-        holder.textView.text = dino.name
-        holder.itemView.setOnClickListener {
-            onItemClickListener.onItemClicked(dino)
-        }
+        val dino = listDino[position]
+        holder.bind(dino)
     }
 
     override fun getItemCount(): Int {
-        return dinoList.size
+        return listDino.size
     }
 
-    inner class DinoViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val imageView: ImageView = itemView.findViewById(R.id.theropodaImage)
-        val textView: TextView = itemView.findViewById(R.id.textView4)
+    inner class DinoViewHolder(private val binding: ItemDinoBinding) :
+        RecyclerView.ViewHolder(binding.root) {
+
+        fun bind(dino: Dino) {
+            binding.apply {
+                itemDino.setImageResource(dino.icon)
+                tvItemOrg.text = dino.name
+                root.setOnClickListener {
+                    onItemClickCallback.onItemClicked(dino)
+                }
+            }
+        }
     }
 
     interface OnItemClickCallback {

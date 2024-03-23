@@ -1,3 +1,236 @@
 <resources>
-    <string name="app_name">dinopedia</string>
+    <string name="app_name">Dinopedia</string>
+    <string name="class_name">Nama Kelas</string>
+    <string name="dino_name">Nama Dino</string>
+    <string name="dino_icon">Icon Dino</string>
+    <string name="dino_desc">Deskripsi Dino</string>
+    <string name="dino_char">Karakteristik Dino</string>
+    <string name="dino_habit">Habitat Dino</string>
+    <string name="dino_food">Makanan Dino</string>
+    <string name="dino_longheight">Panjang dan Tinggi Dino</string>
+    <string name="dino_weakness">Kelemahan</string>
+
+
+
+    <string-array name="Kelompok_Dino">
+        <item>Theropoda</item>
+        <item>Ankylosauria</item>
+        <item>Ceratopsia</item>
+        <item>Hadrosauridae</item>
+        <item>Pteurosauria</item>
+        <item>Saurischia</item>
+        <item>Sauropoda</item>
+        <item>Triceratops</item>
+    </string-array>
+
+    <string-array name="Class_icon">
+        <item>@drawable/theropoda</item>
+        <item>@drawable/ankylosauria</item>
+        <item>@drawable/ceratopsia</item>
+        <item>@drawable/hadrosauridae</item>
+        <item>@drawable/pterosauria</item>
+        <item>@drawable/saurischia</item>
+        <item>@drawable/sauropoda</item>
+        <item>@drawable/triceratops</item>
+    </string-array>
+
+    <string-array name="Nama_Dino">
+        <item>Tyrannosaurus Rex</item>
+        <item>Velociraptor</item>
+        <item>Allosaurus</item>
+
+        <item>Ankylosaurus</item>
+        <item>Nodocephalosaurus</item>
+        <item>Euoplocephalus</item>
+
+        <item>Triceratops</item>
+        <item>Styracosaurus</item>
+        <item>Protoceratops</item>
+
+        <item>Hadrosaurus</item>
+        <item>Parasaurolophus</item>
+        <item>Edmontosaurus</item>
+
+        <item>Pteranodon</item>
+        <item>Quetzalcoatlus</item>
+        <item>Rhamphorhynchus</item>
+
+        <item>Brachiosaurus</item>
+        <item>Diplodocus</item>
+
+        <item>Triceratops</item>
+        <item>Styracosaurus</item>
+        <item>Protoceratops</item>
+    </string-array>
+
+    <string-array name="Icon_Dinos">
+        <item>@drawable/tyrannousaurus_rex</item>
+        <item>@drawable/velociraptor</item>
+        <item>@drawable/allosaurus</item>
+
+        <item>@drawable/ankylosaurus</item>
+        <item>@drawable/nodocephalosaurus</item>
+        <item>@drawable/euoplocephalus</item>
+
+        <item>@drawable/triceratops</item>
+        <item>@drawable/styracosaurus</item>
+        <item>@drawable/protoceratops</item>
+
+        <item>@drawable/hadrosaurus</item>
+        <item>@drawable/parasaurolophus</item>
+        <item>@drawable/edmontosaurus</item>
+
+        <item>@drawable/pteranodon</item>
+        <item>@drawable/quetzalcoatlus</item>
+        <item>@drawable/rhamphorhynchus</item>
+
+        <item>@drawable/brachiosaurus</item>
+        <item>@drawable/diplodocus</item>
+
+        <item>@drawable/triceratops</item>
+        <item>@drawable/styracosaurus</item>
+        <item>@drawable/protoceratops</item>
+    </string-array>
+
+    <string-array name="Deskripsi_Dino">
+        <item>Salah satu dinosaurus terkenal yang memiliki kepala besar, rahang yang kuat, dan tubuh yang besar</item>
+        <item>Dinosaurus berukuran sedang dengan tubuh yang ramping dan cakar tajam di kaki depannya</item>
+        <item>Ankylosaurus adalah salah satu anggota Ankylosauria yang terbesar dan paling terkenal. Tubuhnya dilapisi oleh pelat tulang dan dilengkapi dengan deretan duri di sepanjang punggung dan sisi tubuhnya</item>
+        <item>Nodocephalosaurus adalah Ankylosauria yang dikenal dari fosil-fosil yang ditemukan di Amerika Utara</item>
+        <item>Euoplocephalus adalah Ankylosauria yang dikenal karena pelindung tulang yang mengelilingi tubuhnya dan memiliki gada di ujung ekornya</item>
+        <item>Triceratops adalah dinosaurus bertanduk yang paling terkenal dan besar. Mereka memiliki tubuh besar dengan tiga tanduk pada bagian wajahnya dan satu lempeng besar di belakang kepala</item>
+        <item>Styracosaurus adalah dinosaurus bertanduk lain yang dikenal dengan lempeng besar di bagian belakang kepala dan tanduk yang menonjol dari hidung dan sudut-sudut matanya</item>
+        <item>Hadrosaurus adalah salah satu hadrosauridae yang pertama kali ditemukan dan dinamai pada tahun 1858 di Amerika Utara</item>
+        <item>Parasaurolophus adalah hadrosauridae yang dikenal dengan kubah besar pada bagian belakang kepala yang digunakan untuk menghasilkan suara</item>
+        <item>Edmontosaurus adalah hadrosauridae yang dikenal dengan rahang yang panjang dan rata serta struktur rahang yang kuat</item>
+        <item>Pteranodon adalah pterosaurus yang memiliki sayap besar, paruh panjang, dan kaki yang relatif pendek</item>
+        <item>Quetzalcoatlus adalah salah satu pterosaurus terbesar yang pernah hidup, dengan rentang sayap yang sangat luas</item>
+        <item>Rhamphorhynchus adalah salah satu pterosaurus yang memiliki tubuh kecil dengan leher panjang dan ekor panjang</item>
+        <item>Brachiosaurus adalah dinosaurus pemakan tumbuhan dengan leher panjang dan tubuh besar. Mereka memiliki kaki depan yang lebih panjang daripada kaki belakang, memberikan posisi tubuh yang miring ke depan</item>
+        <item>Diplodocus adalah dinosaurus Sauropoda yang memiliki tubuh panjang dan ramping, dengan leher yang sangat panjang dan ekor yang panjang pula. Mereka memiliki kaki yang kuat, tetapi relatif ramping dibandingkan dengan tubuhnya</item>
+        <item>Brachiosaurus adalah salah satu dinosaurus Sauropoda terbesar yang pernah hidup. Mereka memiliki leher yang sangat panjang, tubuh besar, dan kaki yang kuat</item>
+        <item>Diplodocus adalah dinosaurus Sauropoda dengan tubuh panjang dan ramping, serta leher yang sangat panjang dan ekor yang panjang pula</item>
+        <item>Triceratops adalah salah satu dinosaurus bertanduk yang paling terkenal dan besar. Mereka memiliki tubuh besar dengan tiga tanduk pada bagian wajahnya dan satu lempeng besar di belakang kepala</item>
+        <item>Styracosaurus adalah dinosaurus bertanduk lain yang dikenal dengan lempeng besar di bagian belakang kepala dan tanduk yang menonjol dari hidung dan sudut-sudut matanya</item>
+        <item>Protoceratops adalah dinosaurus bertanduk yang lebih kecil dengan tubuh yang ramping dan tanduk kecil di bagian hidung atau rahangnya</item>
+    </string-array>
+
+    <string-array name="Karakteristik_Dino">
+        <item>T-Rex adalah pemangsa besar yang dikenal karena kekuatan gigitannya yang kuat dan kemampuan berlari yang cukup cepat</item>
+        <item>Velociraptor adalah predator yang cerdas dan berburu dalam kelompok kecil.</item>
+        <item>Allosaurus adalah predator yang kuat dan agresif yang memburu secara individu atau dalam kelompok kecil</item>
+        <item>Ankylosaurus memiliki kepala yang besar dan lebar dengan gigi-gigi yang cocok untuk mengunyah tumbuhan. Ekornya dilengkapi dengan gada yang keras yang digunakan untuk pertahanan diri</item>
+        <item>Sedikit yang diketahui tentang karakteristik atau penampilan Nodocephalosaurus karena kurangnya fosil-fosil yang ditemukan</item>
+        <item>Euoplocephalus memiliki tubuh yang relatif pendek dan lebar dengan kepala yang besar dan datar. Pelindung tulangnya terdiri dari pelat-pelat yang terhubung oleh sendi-sendi fleksibel</item>
+        <item>Triceratops memiliki tubuh besar dengan kaki yang kuat. Tanduk-tanduknya biasanya digunakan untuk pertarungan dalam persaingan memperebutkan wilayah atau pasangan</item>
+        <item>Styracosaurus memiliki tubuh yang besar dengan kaki yang kuat. Tanduk-tanduk dan lempeng belakang kepala mereka mungkin digunakan untuk melindungi diri atau untuk pertarungan antar-individu</item>
+        <item>Mereka memiliki tubuh yang besar dengan kaki yang kuat dan rahang bawah yang panjang. Rahang mereka membentuk struktur seperti paruh bebek yang digunakan untuk memakan tumbuhan</item>
+        <item>Parasaurolophus memiliki tubuh yang besar dengan kaki yang kuat dan leher yang panjang. Mereka memiliki kubah besar yang terbuat dari tulang di bagian belakang kepala, yang digunakan untuk membuat suara atau untuk pengenalan antar-individu</item>
+        <item>Edmontosaurus memiliki tubuh yang besar dengan kaki yang kuat dan rahang bawah yang panjang. Mereka memiliki rahang yang kuat dan efisien untuk mengunyah tumbuhan</item>
+        <item>Salah satu ciri khas Pteranodon adalah kubah besar yang terbentuk oleh tulang tengkoraknya, yang mungkin berfungsi sebagai penyeimbang dalam penerbangan. Mereka juga memiliki gigi yang panjang dan runcing di ujung paruhnya</item>
+        <item>Quetzalcoatlus memiliki tubuh yang besar dengan leher panjang dan kepala kecil. Mereka memiliki paruh yang lebar dan datar, serta sayap yang sangat besar</item>
+        <item>Rhamphorhynchus memiliki sayap yang terhubung langsung ke kaki belakangnya, sehingga membentuk struktur seperti jaring di antara kaki dan sayap. Mereka memiliki paruh yang panjang dan runcing</item>
+        <item>Salah satu ciri khas Brachiosaurus adalah leher panjangnya yang memungkinkan mereka mencapai daun-daun tinggi di pohon-pohon. Mereka juga memiliki ekor yang panjang dan bercabang serta kaki yang besar dan kuat</item>
+        <item>Salah satu karakteristik utama Diplodocus adalah lehernya yang sangat panjang, yang mungkin mencapai panjang yang lebih dari dua kali panjang tubuhnya. Lehernya membantu mereka mencapai daun-daun tinggi di pohon-pohon</item>
+        <item>Salah satu ciri khas Brachiosaurus adalah leher panjangnya yang memungkinkan mereka mencapai daun-daun tinggi di pohon-pohon. Mereka juga memiliki ekor yang panjang dan bercabang serta kaki yang besar dan kuat</item>
+        <item>Diplodocus memiliki leher yang sangat panjang, yang membantu mereka mencapai daun-daun tinggi di pohon-pohon. Mereka memiliki kepala kecil dan kaki yang kuat</item>
+        <item>Triceratops memiliki tubuh yang besar dengan kaki yang kuat. Tanduk-tanduknya biasanya digunakan untuk pertarungan dalam persaingan memperebutkan wilayah atau pasangan</item>
+        <item>Styracosaurus memiliki tubuh yang besar dengan kaki yang kuat. Tanduk-tanduk dan lempeng belakang kepala mereka mungkin digunakan untuk melindungi diri atau untuk pertarungan antar-individu</item>
+        <item>Protoceratops memiliki tubuh yang lebih kecil daripada Triceratops dan Styracosaurus. Mereka mungkin kurang agresif dan lebih suka menghindari pertarungan</item>
+    </string-array>
+
+    <string-array name="Habitat_Dino">
+        <item>T-Rex biasanya ditemukan di dataran rendah dan hutan di Amerika Utara pada periode Cretaceous</item>
+        <item>Biasanya ditemukan di wilayah Asia pada periode Cretaceous</item>
+        <item>Allosaurus ditemukan di Amerika Utara, Eropa, dan Afrika pada periode Jurassic</item>
+        <item>Ankylosaurus biasanya mendiami dataran rendah dan hutan-hutan yang lebat pada periode Cretaceous</item>
+        <item>Nodocephalosaurus diperkirakan mendiami lingkungan yang serupa dengan Ankylosauria lainnya, seperti dataran rendah dan hutan pada periode Cretaceous</item>
+        <item>Euoplocephalus mendiami wilayah yang sebagian besar terdiri dari dataran rendah dan hutan pada periode Cretaceous</item>
+        <item>Triceratops hidup di dataran rendah dan dataran banjir pada periode Cretaceous di Amerika Utara</item>
+        <item>Protoceratops hidup di dataran rendah dan gurun-gurun padang rumput pada periode Cretaceous di Asia</item>
+        <item>Hadrosaurus biasanya hidup di dataran rendah, hutan, dan daerah rawa-rawa pada periode Cretaceous di Amerika Utara</item>
+        <item>Parasaurolophus biasanya hidup di dataran rendah, hutan, dan daerah rawa-rawa pada periode Cretaceous di Amerika Utara.</item>
+        <item>Edmontosaurus biasanya hidup di dataran rendah, hutan, dan daerah rawa-rawa pada periode Cretaceous di Amerika Utara</item>
+        <item>Pteranodon biasanya ditemukan di wilayah pesisir dan daerah laut pada periode Cretaceous di Amerika Utara</item>
+        <item>Quetzalcoatlus mungkin menghuni dataran rendah dan daerah rawa-rawa pada periode Cretaceous di Amerika Utara</item>
+        <item>Rhamphorhynchus mungkin menghuni wilayah pesisir dan daerah rawa-rawa pada periode Jurassic di Eropa</item>
+        <item>Brachiosaurus mendiami dataran tinggi dan daerah hutan pada periode Jurassic di Amerika Utara</item>
+        <item>Diplodocus mendiami dataran tinggi dan daerah padang rumput pada periode Jurassic di Amerika Utara.</item>
+        <item>Brachiosaurus mendiami dataran tinggi dan daerah hutan pada periode Jurassic di Amerika Utara</item>
+        <item>Diplodocus mendiami dataran tinggi dan daerah padang rumput pada periode Jurassic di Amerika Utara</item>
+        <item>Triceratops hidup di dataran rendah dan dataran banjir pada periode Cretaceous di Amerika Utara</item>
+        <item>Styracosaurus hidup di dataran rendah dan hutan pada periode Cretaceous di Amerika Utara</item>
+        <item>Protoceratops hidup di dataran rendah dan gurun-gurun padang rumput pada periode Cretaceous di Asia</item>
+    </string-array>
+
+    <string-array name="Makanan_Dino">
+        <item>Pemangsa karnivora yang memangsa berbagai jenis hewan herbivora dan kadang-kadang juga kanibal</item>
+        <item>Velociraptor memakan hewan kecil, reptil, dan mungkin juga hewan herbivora kecil</item>
+        <item>Memangsa berbagai jenis hewan herbivora dan kadang-kadang juga memakan dinosaurus lain</item>
+        <item>Ankylosaurus adalah herbivora yang memakan berbagai jenis tumbuhan rendah, seperti pakis, lumut, dan pohon-pohon keci</item>
+        <item>Nodocephalosaurus diperkirakan menjadi herbivora yang memakan tumbuhan rendah</item>
+        <item>Euoplocephalus adalah herbivora yang memakan berbagai jenis tumbuhan rendah, seperti paku-pakuan dan tanaman berbunga</item>
+        <item>Herbivora yang memakan berbagai jenis tumbuhan rendah, seperti pakis, tanaman berbunga, dan semak-semak</item>
+        <item>Herbivora yang memakan berbagai jenis tumbuhan rendah, seperti pakis, lumut, dan tanaman berbunga</item>
+        <item>Herbivora yang memakan berbagai jenis tumbuhan rendah, seperti pakis, tanaman berbunga, dan pohon-pohon kecil</item>
+        <item>Herbivora yang memakan berbagai jenis tumbuhan rendah, seperti pakis, lumut, dan tanaman berbunga</item>
+        <item>Herbivora yang memakan berbagai jenis tumbuhan rendah, seperti pakis, tanaman berbunga, dan semak-semak</item>
+        <item>Pemangsa ikan dan hewan laut kecil lainnya. Mereka mungkin juga memakan invertebrata laut</item>
+        <item>Quetzalcoatlus mungkin adalah pemangsa ikan dan hewan kecil lainnya</item>
+        <item>Mungkin memakan ikan dan invertebrata air lainnya</item>
+        <item>Brachiosaurus adalah herbivora yang memakan daun-daun dan pucuk-pucuk pohon yang tinggi</item>
+        <item>Diplodocus adalah herbivora yang memakan daun-daun, pucuk-pucuk, dan tanaman tinggi lainnya yang dapat mereka capai dengan leher mereka yang panjang</item>
+        <item>Brachiosaurus adalah herbivora yang memakan daun-daun dan pucuk-pucuk pohon yang tinggi</item>
+        <item>Diplodocus adalah herbivora yang memakan daun-daun, pucuk-pucuk, dan tanaman tinggi lainnya yang dapat mereka capai dengan leher mereka yang panjang</item>
+        <item>Mereka adalah herbivora yang memakan berbagai jenis tumbuhan rendah, seperti pakis, tanaman berbunga, dan semak-semak</item>
+        <item>Herbivora yang memakan berbagai jenis tumbuhan rendah, seperti pakis, tanaman berbunga, dan semak-semak</item>
+        <item>Herbivora yang memakan berbagai jenis tumbuhan rendah, seperti pakis, lumut, dan tanaman berbunga</item>
+    </string-array>
+
+    <string-array name="Panjang_Tinggi">
+        <item>Panjang : Secara umum, panjang T-Rex bisa mencapai sekitar 12 hingga 13 meter\nTinggi : Tinggi T-Rex dapat mencapai sekitar 4 hingga 6 meter pada punggungnya</item>
+        <item>Panjang : Berkisar antara 1,8 hingga 2 meter\nTinggi :  sekitar 0,5 meter pada pinggir punggungnya</item>
+        <item>Panjang : Bisa mencapai sekitar 9 sampai 12 meter\nTinggi : Diperkirakan sekitar 3,5 meter pada punggungnya</item>
+        <item>Panjang : Diperkirakan mencapai sekitar 6 hingga 9 meter\nTinggi : mencapai sekitar 1,5 sampai 2 meter pada punggungnya</item>
+        <item> </item>
+        <item>Panjang : Diperkirakan sekitar 5 sampai 6 meter\nTinggi: Mencapai 1,5 sampai 2 meter</item>
+        <item>Panjang : Mencapai sekitar 7 sampai 9 meter\n Tinggi : Mencapai 3 meter</item>
+        <item>Panjang : Diperkirakan sekitar 2 sampai 3 meter\nTinggi Bisa mencapai 1 meter</item>
+        <item>Panjang : Diperkirakan mencapai 8 sampai 10 meter\nTinggi Mencapai 2 hingga 3 meter</item>
+        <item>Panjang : Sekitar 10 sampai 12 meter\nTinggi : Mencapai sekitar 2 sampai 3 meter</item>
+        <item>Panjang : Diperkirakan mencapai 9 sampai 12 meter\nTinggi : Mencapai 3 samapi 4 meter</item>
+        <item>Panjang : Untuk tubuh mencapai 2 meter, sementar sayap 7 meter\nTinggi : Mencapai sekitar 1 hingga 2 meter</item>
+        <item>Panjang : Untuk tubuh mencapai 3 sampai 4 meter dan sayap 10 sampai 11 meter\nTinggi\Tinggi : Mencapai sekitar 2 sampai 3 meter</item>
+        <item>Panjang : Sayap Rhamphorhynchus biasanya sekitar 1 meter, dengan panjang tubuh sekitar 30 sampai 50 sentimeter\nTinggi : Mencapai beberapa puluh sentimeter</item>
+        <item>Panjang : Mencapai sekitar 18 sampai 22 meter\nTinggi : 9 sampai 12 meter</item>
+        <item>Panjang : Mencapai sekitar 25 hingga 30 meter\nTinggi : Mencapai 4 sampai 5 meter</item>
+        <item>Panjang : Mencapai 18 sampai 22 meter\n Tinggi : Mencapai sekitar 9 sampai 12 meter</item>
+        <item>Panjang: Panjang Diplodocus diperkirakan mencapai sekitar 25 hingga 30 meter\n Tinggi : Mencapai sekitar 4 sampai 5 meter</item>
+        <item>Panjang: Panjang Triceratops dapat mencapai sekitar 7 sampai 9 meter\nTinggi : Mencapai sekitar 3 meter</item>
+        <item>Panjang: Panjang Styracosaurus diperkirakan sekitar 5 sampai 6 meter\nTinggi : Mencapai sekitar 2 sampai 2,5 meter</item>
+        <item>Panjang: Panjang Protoceratops diperkirakan sekitar 2 hingga 3 meter\Tinggi : 1 meter</item>
+    </string-array>
+
+    <string-array name="Kelemahan_Dino">
+        <item>Ukuran besar T-Rex membuatnya rentan terhadap cedera dan membutuhkan banyak makanan untuk bertahan hidup</item>
+        <item>Velociraptor rentan terhadap serangan yang lebih besar dari pemangsa lain</item>
+        <item>Meskipun kuat, Allosaurus bisa menjadi kalah dalam persaingan dengan pemangsa yang lebih besar dan lebih kuat</item>
+        <item>Meskipun dilengkapi dengan pelindung yang kuat, Ankylosaurus mungkin rentan terhadap serangan dari predator yang cukup besar dan gesit</item>
+        <item>Meskipun memiliki pelindung yang kuat, Euoplocephalus mungkin rentan terhadap serangan predator yang mampu menemukan celah dalam pelindungannya atau menyerang dari atas</item>
+        <item>Meskipun memiliki tanduk yang kuat, Triceratops mungkin rentan terhadap serangan predator yang cerdas atau yang berburu dalam kelompok</item>
+        <item>Meskipun memiliki tanduk kecil, Protoceratops mungkin rentan terhadap serangan predator yang lebih besar atau lebih cepat</item>
+        <item>Meskipun memiliki ukuran yang besar, Hadrosaurus mungkin rentan terhadap serangan predator yang cerdas atau yang berburu dalam kelompok</item>
+        <item>Meskipun memiliki kubah yang besar, Parasaurolophus mungkin rentan terhadap serangan predator yang cerdas atau yang berburu dalam kelompok</item>
+        <item>Meskipun memiliki rahang yang kuat, Edmontosaurus mungkin rentan terhadap serangan predator yang cerdas atau yang berburu dalam kelompok</item>
+        <item>Meskipun memiliki kemampuan terbang yang luar biasa, Pteranodon mungkin rentan terhadap predator lain di udara atau di darat saat mereka mendarat untuk bertelur atau istirahat</item>
+        <item>Meskipun bisa terbang, Rhamphorhynchus mungkin rentan terhadap predator lain di udara atau di darat saat mereka mendarat. Ukuran tubuh yang kecil juga membuat mereka rentan terhadap predator darat yang lebih besar</item>
+        <item>Meskipun ukurannya besar, Brachiosaurus mungkin rentan terhadap predator pemangsa besar dan mungkin memiliki tantangan dalam mencapai sumber makanan yang rendah</item>
+        <item>Meskipun memiliki ukuran yang besar, Diplodocus mungkin rentan terhadap predator yang cerdas dan cepat. Selain itu, tubuhnya yang besar membutuhkan banyak makanan dan air untuk mempertahankan diri, sehingga kekurangan sumber daya dapat menjadi kelemahan bagi mereka</item>
+        <item>Meskipun memiliki ukuran tubuh yang besar, Brachiosaurus mungkin rentan terhadap predator yang cerdas dan gesit serta mungkin memiliki tantangan dalam mencapai sumber makanan yang rendah</item>
+        <item>Meskipun memiliki ukuran yang besar, Diplodocus mungkin rentan terhadap predator yang cerdas dan cepat, serta membutuhkan banyak makanan dan air untuk mempertahankan tubuh yang besar</item>
+        <item>Meskipun memiliki tanduk yang kuat, Triceratops mungkin rentan terhadap serangan predator yang cerdas atau yang berburu dalam kelompok</item>
+        <item>Meskipun memiliki struktur bertanduk yang kuat, Styracosaurus mungkin rentan terhadap serangan predator yang cerdas atau yang berburu dalam kelompok</item>
+        <item>Meskipun memiliki tanduk kecil, Protoceratops mungkin rentan terhadap serangan predator yang lebih besar atau lebih cepat</item>
+    </string-array>
+
 </resources>
